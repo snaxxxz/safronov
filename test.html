@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир бабочек | Главная</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0 0 60px; /* Чтобы footer не перекрывал контент */
+            background-color: #f9f7e8;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #6a8a82, #a7c4bc);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #a7c4bc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #6a8a82;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Стили для главной страницы */
+        .hero {
+            background: url('https://placeholder.com/1200x400') no-repeat center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            background: rgba(0, 0, 0, 0.4);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .hero h2 {
+            position: relative;
+            z-index: 1;
+            font-size: 3em;
+            text-shadow: 2px 2px 5px #000;
+        }
+        .intro {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .facts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .fact-card {
+            background: white;
+            flex: 1 1 200px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .fact-card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+        .gallery-preview {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .gallery-preview img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .gallery-preview img:hover {
+            transform: scale(1.05);
+        }
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .cta-button {
+            background: #6a8a82;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #5a7a72;
+        }
+				.lifecycle {
+				    background: white;
+				    padding: 30px;
+				    border-radius: 10px;
+				    margin-bottom: 30px;
+				    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+				    text-align: center;
+				}
+				.cycle-steps {
+				    display: flex;
+				    justify-content: space-around;
+				    flex-wrap: wrap;
+				    gap: 20px;
+				    margin-top: 20px;
+				}
+				.step {
+				    flex: 1 1 150px;
+				    padding: 15px;
+				    transition: transform 0.3s;
+				}
+				.step:hover {
+				    transform: translateY(-10px);
+				}
+				.step img {
+				    width: 80px;
+				    height: 80px;
+				    object-fit: cover;
+				    border-radius: 50%;
+				    margin-bottom: 10px;
+				}
+				footer {
+    background: linear-gradient(135deg, #5a7a72, #6a8a82);
+    color: white;
+    padding: 30px 0 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #a7c4bc;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.footer-section p, .footer-section li {
+    margin: 8px 0;
+    opacity: 0.9;
+}
+
+.footer-section a {
+    color: #e0f2e9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🦋 Мир бабочек</h1>
+    </header>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="facts.html">Интересные факты</a>
+        <a href="species.html">Виды бабочек</a>
+        <a href="contact.html">Контакты</a>
+    </nav>
+    <div class="container">
+        <!-- Hero-баннер -->
+        <div class="hero">
+            <h2>Удивительный мир бабочек</h2>
+        </div>
+
+        <!-- Описание -->
+        <div class="intro">
+            <h2>Добро пожаловать!</h2>
+            <p>Бабочки — одни из самых красивых созданий природы. Их яркие крылья и изящный полёт вдохновляют людей по всему миру. На этом сайте вы узнаете о разнообразии видов, их жизненном цикле и роли в экосистеме.</p>
+        </div>
+
+        <!-- Факты -->
+        <h2>Знаете ли вы?</h2>
+        <div class="facts">
+            <div class="fact-card">
+                <img src="https://placeholder.com/60" alt="Иконка">
+                <h3>20 000 видов</h3>
+                <p>Столько видов бабочек существует в мире.</p>
+            </div>
+            <div class="fact-card">
+                <img src="https://placeholder.com/60" alt="Иконка">
+                <h3>360° обзор</h3>
+                <p>Бабочки видят ультрафиолет и их зрение почти круговое.</p>
+            </div>
+            <div class="fact-card">
+                <img src="https://placeholder.com/60" alt="Иконка">
+                <h3>Хрупкие и сильные</h3>
+                <p>Они могут пролететь до 3000 км во время миграции.</p>
+            </div>
+        </div>
+
+        <!-- Галерея -->
+        <h2>Наши бабочки</h2>
+        <div class="gallery-preview">
+            <img src="https://placeholder.com/150" alt="Бабочка 1">
+            <img src="https://placeholder.com/150" alt="Бабочка 2">
+            <img src="https://placeholder.com/150" alt="Бабочка 3">
+            <img src="https://placeholder.com/150" alt="Бабочка 4">
+            <img src="https://placeholder.com/150" alt="Бабочка 5">
+            <img src="https://placeholder.com/150" alt="Бабочка 6">
+        </div>
+
+        <!-- Кнопка -->
+        <div class="cta">
+            <button class="cta-button">Узнать больше</button>
+        </div>
+    </div>
+		<div class="lifecycle">
+			<h2>Жизненный цикл бабочки</h2>
+			<div class="cycle-steps">
+					<div class="step">
+							<img src="https://placeholder.com/80" alt="Яйцо">
+							<h3>1. Яйцо</h3>
+							<p>Самка откладывает яйца на растения.</p>
+					</div>
+					<div class="step">
+							<img src="https://placeholder.com/80" alt="Гусеница">
+							<h3>2. Гусеница</h3>
+							<p>Личинка активно питается листьями.</p>
+					</div>
+					<div class="step">
+							<img src="https://placeholder.com/80" alt="Куколка">
+							<h3>3. Куколка</h3>
+							<p>Превращение внутри кокона.</p>
+					</div>
+					<div class="step">
+							<img src="https://placeholder.com/80" alt="Бабочка">
+							<h3>4. Бабочка</h3>
+							<p>Взрослая особь с крыльями.</p>
+					</div>
+			</div>
+	</div>
+	<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Мир бабочек</h3>
+            <p>Изучаем удивительный мир чешуекрылых вместе с вами с 2024 года.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Контакты</h3>
+            <p>Email: butterflies@example.com</p>
+            <p>Телефон: +7 (123) 456-78-90</p>
+        </div>
+        <div class="footer-section">
+            <h3>Быстрая навигация</h3>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="species.html">Виды</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Мир бабочек | Все права защищены</p>
+    </div>
+	</footer>
+</body>
+</html>

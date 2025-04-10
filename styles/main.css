@@ -1,0 +1,338 @@
+@font-face {
+	font-family: "Nunito";
+	src: url(/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+	margin: 0 auto;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #006790;
+	height: 100px;
+	width: auto;
+}
+.headerFirstBlock{
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.headerBlock{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1500px;
+	height: 60px;
+}
+.infoHeaderBlock{
+	display: flex;
+}
+.teleBlock_headerBlock{
+	display: flex;
+	align-items: center;
+	margin-left: 46px;
+	background-image: url(/images/Vector.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 10% 50%;
+	width: 139px;
+	height: 25px;
+	padding: 18px 20px 17px 46px;
+	background-color: #FFD200;
+	border-radius: 15px;
+	border: solid 1px;
+	font-size: 18px;
+	color: black;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+.calculatorLink{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background-image: url(/images/Subtract.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 10% 50%;
+	width: 114px;
+	height: 25px;
+	padding: 17px 19px 18px 43px;
+	background-color: #FFD200;
+	border-radius: 15px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	border: solid 1px;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+.headerSecondBlock{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	width: auto;
+	background-color: #028BC1;
+}
+.nav_block{
+	font-family: "Nunito";
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 1500px;
+}
+.navHeaderBlock{
+	display: flex;
+	width: 1260px;
+}
+.ulBlockHeader{
+	display: flex;
+	justify-content: space-between;
+}
+
+.itemNavMenu a{
+	font-family: "Nunito";
+	display: flex;
+	color: white;
+	margin-left: 120px;
+}
+/* main */
+.firstMainBlock{
+	background-image: url(/images/bgMain1.png);
+	background-repeat: no-repeat;
+	background-size: 63%;
+	background-position: 100% 100%;
+	width: auto;
+	height: 670px;
+	background-color: #006790;
+}
+.infoBlock__firstMainBlock{
+	width: 605px;
+	margin-left: 210px;
+	padding-top: 62px;
+}
+.mainText_infoBlock__firstMainBlock{
+	font-family: "Nunito";
+	width: 604px;
+	height: 350px;
+	color: white;
+	font-size: 80px;
+}
+.secondText_infoBlock__firstMainBlock{
+	font-family: "Nunito";
+	font-weight: 100;
+	font-size: 20px;
+	width: 467px;
+	color: white;
+}
+.mainBlock{
+
+	width: 1500px;
+	margin: 0 auto;
+
+}
+
+.mainBlock .typeTextDrive_mainBlock{
+	display: flex;
+	font-size: 80px;
+	font-family: "Nunito";
+	font-weight: bold;
+	margin-left: 400px;
+}
+.mainBlockProduct_mainBlock{
+	display: flex;
+	flex-wrap: wrap;
+}
+.itemBlock-mainBlockProduct_mainBlock{
+	margin: 0 20px 30px 0;
+	width: 735px;
+	height: 331px;
+	background-color: #F3F3F3;
+	border-radius: 12px;
+}
+.itemBlock-mainBlockProduct_mainBlock:nth-child(1){
+	background-image: url(/images/bgMain1.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: 135% 100%;
+	margin: 0 20px 30px 0;
+	width: 735px;
+	height: 331px;
+
+}
+.itemBlock-mainBlockProduct_mainBlock:nth-child(2){
+	background-image: url(/images/bgMain2.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: 135% 100%;
+	margin: 0 10px 30px 0;
+	width: 735px;
+	height: 331px;
+}
+.itemBlock-mainBlockProduct_mainBlock:nth-child(3){
+	background-image: url(/images/bgMain3.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: 135% 100%;
+	margin: 0 20px 30px 0;
+	width: 735px;
+	height: 331px;
+}
+.itemBlock-mainBlockProduct_mainBlock:nth-child(4){
+	background-image: url(/images/bgMain4.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: 135% 100%;
+	margin: 0 10px 30px 0;
+	width: 735px;
+	height: 331px;
+}
+.itemBlock-mainBlockProduct_mainBlock:nth-child(5){
+	background-image: url(/images/bgMain1.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: 135% 100%;
+	margin: 0 10px 30px 0;
+	width: 735px;
+	height: 331px;
+}
+.itemBlock-mainBlockProduct_mainBlock:nth-child(6){
+	background-image: url(/images/bgMain1.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: 135% 100%;
+	margin: 0 20px 30px 0;
+	width: 735px;
+	height: 331px;
+}
+.maintext_itemBlock{
+	font-family: "Nunito";
+	font-size: 30px;
+	color: black;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.secondtext_itemBlock{
+	font-size: 18px;
+	font-family: "Nunito";
+	width: 330px;
+	padding-left: 30px;
+	color: #667582;
+	line-height: 2;
+}
+
+
+
+.blockCalAuto{
+	font-family: "Nunito";
+	width: 1500px;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 100px;
+}
+.itemAutoBlock_blockCalAuto{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 352px;
+	height: 352px;
+	margin-right: 30px;
+}
+.itemAutoBlock_blockCalAuto:nth-child(1){
+	background-image: url(/images/carBg1.png);
+	background-repeat: no-repeat;
+	background-size: 200px 96px;
+	background-position: 50% 50%;
+}
+.itemAutoBlock_blockCalAuto:nth-child(2){
+	background-image: url(/images/carBg2.png);
+	background-repeat: no-repeat;
+	background-size: 200px 96px;
+	background-position: 50% 50%;
+}
+.itemAutoBlock_blockCalAuto:nth-child(3){
+	background-image: url(/images/carBg3.png);
+	background-repeat: no-repeat;
+	background-size: 200px 96px;
+	background-position: 50% 50%;
+}
+.itemAutoBlock_blockCalAuto:nth-child(4){
+	background-image: url(/images/carBg4.png);
+	background-repeat: no-repeat;
+	background-size: 270px 96px;
+	background-position: 50% 50%;
+}
+.itemAutoBlock_blockCalAuto:last-child{
+	margin-right: 0px;
+}
+.nameTextAuto_blockCalAuto{
+	font-size: 30px;
+	color: black;
+	margin: 30px 0 0 30px;
+	width: max-content;
+}
+.linkForCal{
+	margin-left: 10px;
+	border-radius: 12px;
+	width: 330px;
+	height: 60px;
+	background-color: #FFD200;
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+.usCompany{
+	width: auto;
+	height: 810px;
+	background-color: #F3F9FF;
+	font-family: "Nunito";
+	margin-top: 160px;
+
+}
+.textUsCompany{
+	align-items: center;
+	text-align: center;
+	display: block;
+	margin-top: 60px;
+	font-size: 80px;
+	font-weight: 700;
+}
+.mainBlock_usCompany{
+	display: flex;
+	justify-content: center;
+}
+.textBlock_mainBlock_usCompany{
+	display: flex;
+	flex-direction: column;
+	width: 740px;
+	height: max-content;
+}
+.firstTextBlock__mainBlock_usCompany{
+	font-size: 30px;
+	margin-top: 40px;
+}
+.firstTextBlock__mainBlock_usCompany{
+	font-size: 18px;
+}
+.bgPhoto_usCompany{
+	background-image: url(/images/Mask\ group.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
