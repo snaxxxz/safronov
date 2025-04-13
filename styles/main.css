@@ -309,7 +309,7 @@ header{
 	align-items: center;
 	text-align: center;
 	display: block;
-	margin-top: 60px;
+	padding-top: 60px;
 	font-size: 80px;
 	font-weight: 700;
 }
@@ -324,15 +324,136 @@ header{
 	height: max-content;
 }
 .firstTextBlock__mainBlock_usCompany{
-	font-size: 30px;
+	font-size: 40px;
 	margin-top: 40px;
 }
-.firstTextBlock__mainBlock_usCompany{
+.secondTextBlock__mainBlock_usCompany{
 	font-size: 18px;
+	line-height: 2.2;
+	margin-top: 20px;
 }
 .bgPhoto_usCompany{
 	background-image: url(/images/Mask\ group.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	
+	width: 930px;
+	height: 480px;
+	margin-top: 60px;
+}	
+.advantagesBlock{
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 1500px;
+}
+.advantagesText_advantagesBlock{
+	font-size: 80px;
+	font-family: "Nunito";
+	text-align: center;
+	margin-bottom: 60px
+}
+.advantagesBlockCard_advantagesBlock{
+	width: 1500px;
+	display: flex	;
+	flex-wrap: wrap;
+}
+.itemCardadvantagesBlock{
+	display: flex;
+	width: 480px;
+	height: 215px;
+	margin: 0 15px 30px 0;
+}
+.itemCardadvantagesBlock:nth-child(1){
+	background-image: url(/images/itemCardPro.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 92% 75%;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+
+}
+.itemCardadvantagesBlock:nth-child(2){
+	background-image: url(/images/itemCardPro2.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 92% 75%;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+}	
+.itemCardadvantagesBlock:nth-child(3){
+	background-image: url(/images/itemCardPro3.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 92% 75%;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+}
+.itemCardadvantagesBlock:nth-child(4){
+	background-image: url(/images/itemCardPro4.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 92% 75%;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+}
+.itemCardadvantagesBlock:nth-child(5){
+	background-image: url(/images/itemCardPro5.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 92% 75%;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+}
+.itemCardadvantagesBlock:nth-child(6){
+	background-image: url(/images/itemCardPro6.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 92% 75%;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+}
+.infoBlockCardadvantagesBlock{
+	margin: 30px 0 10px 30px;
+}
+.headerTextBlock_cardBlock{
+	font-size: 30px;
+	font-family: "Nunito";
+}
+.textBlock_cardBlock{
+	font-size: 18px;
+	font-family: "Nunito";
+	color: #667582;
+	width: 200px;
+	height: 100px;
+	line-height: 1.8;
+	overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* footer */
+footer{
+	background-color: black;
+	width: auto;
+}
+.mainBlock__footer{
+	display: flex;
+	margin: 0 auto;
+	width: 1500px;
+	height: 600px;
+	border: solid 1px white;
+}
+.logoFooter{
+	position: relative;
+	background-image: url(/images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 300px 150px;
+	background-position: 50% 50%;
+	width: 300px;
+	height: 150px;
+	top: 200px;
+}
+.mainBlockFooter{
+	margin: auto auto;
+	display: flex;
+}
+.itemLink{
+	color: white;
 }
