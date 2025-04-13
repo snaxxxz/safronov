@@ -1,0 +1,258 @@
+@font-face {
+	font-family: "Nunito";
+	src: url(/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+	margin: 0 auto;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #006790;
+	height: 100px;
+	width: auto;
+}
+.headerFirstBlock{
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.headerBlock{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1500px;
+	height: 60px;
+}
+.infoHeaderBlock{
+	display: flex;
+}
+.teleBlock_headerBlock{
+	display: flex;
+	align-items: center;
+	margin-left: 46px;
+	background-image: url(/images/Vector.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 10% 50%;
+	width: 139px;
+	height: 25px;
+	padding: 18px 20px 17px 46px;
+	background-color: #FFD200;
+	border-radius: 15px;
+	border: solid 1px;
+	font-size: 18px;
+	color: black;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+.calculatorLink{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background-image: url(/images/Subtract.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 10% 50%;
+	width: 114px;
+	height: 25px;
+	padding: 17px 19px 18px 43px;
+	background-color: #FFD200;
+	border-radius: 15px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	border: solid 1px;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+.headerSecondBlock{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	width: auto;
+	background-color: #028BC1;
+}
+.nav_block{
+	font-family: "Nunito";
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 1500px;
+}
+.navHeaderBlock{
+	display: flex;
+	width: 1260px;
+}
+.ulBlockHeader{
+	display: flex;
+	justify-content: space-between;
+}
+
+.itemNavMenu a{
+	font-family: "Nunito";
+	display: flex;
+	color: white;
+	margin-left: 120px;
+}
+.LoadingUnloading{
+	font-family: "Nunito";
+	background-image: url(/images/bgcompany.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;	
+	height: 600px;
+}
+.bgOpaci{
+	background-color: rgba(0, 0, 0, 0.414);
+	height: 600px;
+}
+.inBlock_LoadingUnloading{
+	width: 1500px;
+	margin:  0 auto;
+}
+.navigationLink{
+	width: max-content;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-weight: 800;
+	padding-top: 60px;
+	padding-left: 20px;
+}
+.textInBlock_LoadingUnloading{
+	font-size: 80px;
+	color: white;
+}
+.secondTextInBlock_LoadingUnloading{
+	color: white;
+	font-size: 40px;
+	width: 800px;
+}
+main{
+	font-family: "Nunito";
+}
+.mainBlock{
+	width: 1500px;
+	margin: 20px auto;
+}
+.textBlog{
+	font-size: 80px;
+}
+.blogFrame_block{
+	display: flex;
+	flex-wrap: wrap;
+}
+.itemCardBlog_block{
+	width: 480px;
+	height: 528px;
+	display: flex;
+	flex-direction: column;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.textBlock-item{
+	display: flex;
+	flex-direction: column;
+	margin: 30px 0 0 30px;
+}
+.mainText__itemCard-block{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.secondText__itemCard-block{
+	color: #667582;
+	line-height: 2;
+}
+.dataTime_block{
+	display: flex;
+	color: #667582;
+	font-size: 18px;
+	margin-left: 30px;
+	font-weight: 700;
+	align-items: end;
+}
+.block_dateText{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/* footer */
+footer{
+	font-family: "Nunito";
+	background-color: black;
+	width: auto;
+}
+.mainBlock__footer{
+	display: flex;
+	margin: 0 auto;
+	width: 1500px;
+	height: 300px;
+
+}
+.logoFooter{
+	position: relative;
+	background-image: url(/images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 300px 150px;
+	background-position: 50% 50%;
+	width: 300px;
+	height: 150px;
+	top: 80px;
+}
+.mainBlockFooter{
+	margin: auto auto;
+	display: flex;
+}
+.itemLink{
+	color: white;
+}
+.mainText__footerBlock{
+	margin-right: 60px;
+}
+.itemLinkMain{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.itemLink{
+	margin-bottom: 10px;
+}
+.contact__footerBlock{
+	display: flex;
+	flex-direction: column;
+
+}
+.tel_footer{
+	display: flex;
+	color: white;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.textContact__footerBlock{
+	padding-left: 10px;
+}
+.mail__footer{
+	display: flex;
+	color: white;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.town__footer{
+	display: flex;
+	color: white;
+	align-items: center;
+}

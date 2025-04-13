@@ -430,6 +430,7 @@ header{
 }
 /* footer */
 footer{
+	font-family: "Nunito";
 	background-color: black;
 	width: auto;
 }
@@ -437,8 +438,8 @@ footer{
 	display: flex;
 	margin: 0 auto;
 	width: 1500px;
-	height: 600px;
-	border: solid 1px white;
+	height: 300px;
+
 }
 .logoFooter{
 	position: relative;
@@ -448,7 +449,7 @@ footer{
 	background-position: 50% 50%;
 	width: 300px;
 	height: 150px;
-	top: 200px;
+	top: 80px;
 }
 .mainBlockFooter{
 	margin: auto auto;
@@ -456,4 +457,40 @@ footer{
 }
 .itemLink{
 	color: white;
+}
+.mainText__footerBlock{
+	margin-right: 60px;
+}
+.itemLinkMain{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.itemLink{
+	margin-bottom: 10px;
+}
+.contact__footerBlock{
+	display: flex;
+	flex-direction: column;
+
+}
+.tel_footer{
+	display: flex;
+	color: white;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.textContact__footerBlock{
+	padding-left: 10px;
+}
+.mail__footer{
+	display: flex;
+	color: white;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.town__footer{
+	display: flex;
+	color: white;
+	align-items: center;
 }

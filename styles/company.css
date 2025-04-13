@@ -1,0 +1,266 @@
+@font-face {
+	font-family: "Nunito";
+	src: url(/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+	margin: 0 auto;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #006790;
+	height: 100px;
+	width: auto;
+}
+.headerFirstBlock{
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.headerBlock{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1500px;
+	height: 60px;
+}
+.infoHeaderBlock{
+	display: flex;
+}
+.teleBlock_headerBlock{
+	display: flex;
+	align-items: center;
+	margin-left: 46px;
+	background-image: url(/images/Vector.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 10% 50%;
+	width: 139px;
+	height: 25px;
+	padding: 18px 20px 17px 46px;
+	background-color: #FFD200;
+	border-radius: 15px;
+	border: solid 1px;
+	font-size: 18px;
+	color: black;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+.calculatorLink{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background-image: url(/images/Subtract.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 10% 50%;
+	width: 114px;
+	height: 25px;
+	padding: 17px 19px 18px 43px;
+	background-color: #FFD200;
+	border-radius: 15px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	border: solid 1px;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+.headerSecondBlock{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	width: auto;
+	background-color: #028BC1;
+}
+.nav_block{
+	font-family: "Nunito";
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 1500px;
+}
+.navHeaderBlock{
+	display: flex;
+	width: 1260px;
+}
+.ulBlockHeader{
+	display: flex;
+	justify-content: space-between;
+}
+
+.itemNavMenu a{
+	font-family: "Nunito";
+	display: flex;
+	color: white;
+	margin-left: 120px;
+}
+/* main */
+.LoadingUnloading{
+	font-family: "Nunito";
+	background-image: url(/images/bgcompany.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;	
+	height: 600px;
+}
+.bgOpaci{
+	background-color: rgba(0, 0, 0, 0.414);
+	height: 600px;
+}
+.inBlock_LoadingUnloading{
+	width: 1500px;
+	margin:  0 auto;
+}
+.navigationLink{
+	width: max-content;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-weight: 800;
+	padding-top: 60px;
+	padding-left: 20px;
+}
+.textInBlock_LoadingUnloading{
+	font-size: 80px;
+	color: white;
+}
+.secondTextInBlock_LoadingUnloading{
+	color: white;
+	font-size: 40px;
+	width: 800px;
+}
+.textBlock{
+	font-family: "Nunito";
+	width: 1500px;
+	margin: 0 auto;
+	color: black;
+	font-size: 32px;
+	text-align: center;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+	padding: 30px;
+	margin-top: 100px;
+}
+.coplexClient{
+	font-family: "Nunito";
+	width: 1500px;
+	margin: 0 auto;
+	font-size: 80px;
+	margin-top: 75px;
+	margin-bottom: 60px;
+}
+.blockCoplex{
+	font-family: "Nunito";
+	display: flex;
+	width: 1500px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.itemBlock_complex-block{
+	display: flex;
+	flex-direction: column;
+	width: 276px;
+	height: 387px;
+	background-color: #F3F9FF;
+	border-radius: 12px;
+	margin-right: 36px;
+}
+.itemBlock_complex-block:nth-child(2){
+	display: flex;
+	justify-content: space-between;
+}
+.itemBlock_complex-block:nth-child(4){
+	display: flex;
+	justify-content: space-between;
+}
+.textItem-blcok{
+	width: 180px;
+	font-weight: 800;
+	font-size: 22px;
+	color: black;
+	padding: 30px 0 0 30px;
+}
+
+.imgItem{
+	display: flex;
+}
+
+
+
+/* footer */
+footer{
+	font-family: "Nunito";
+	background-color: black;
+	width: auto;
+}
+.mainBlock__footer{
+	display: flex;
+	margin: 0 auto;
+	width: 1500px;
+	height: 300px;
+
+}
+.logoFooter{
+	position: relative;
+	background-image: url(/images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 300px 150px;
+	background-position: 50% 50%;
+	width: 300px;
+	height: 150px;
+	top: 80px;
+}
+.mainBlockFooter{
+	margin: auto auto;
+	display: flex;
+}
+.itemLink{
+	color: white;
+}
+.mainText__footerBlock{
+	margin-right: 60px;
+}
+.itemLinkMain{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.itemLink{
+	margin-bottom: 10px;
+}
+.contact__footerBlock{
+	display: flex;
+	flex-direction: column;
+
+}
+.tel_footer{
+	display: flex;
+	color: white;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.textContact__footerBlock{
+	padding-left: 10px;
+}
+.mail__footer{
+	display: flex;
+	color: white;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.town__footer{
+	display: flex;
+	color: white;
+	align-items: center;
+}

@@ -1,0 +1,97 @@
+@media (max-width: 767px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	li{
+		list-style-type: none;
+	}
+	body{
+		margin: 0 auto;
+		width: auto;
+		height: max-content;
+	}
+	.headerBlock{
+		display: flex;
+		justify-content:center;
+		margin: 0 auto;
+		width: 400px;
+		height: 60px;
+	}
+	.logoHeader{
+		width: 90px;
+		height: 50px;
+	}
+	.teleBlock_headerBlock{
+		margin-left: 5px;
+		width: 100px;
+		font-size: 12px;
+		padding: 5px 5px 5px 30px;
+	}
+	.calculatorLink{
+		margin-left: 5px;
+		width: 100px;
+		font-size: 12px;
+		padding: 5px 5px 5px 30px;
+	}
+	.nav_block{
+		width: 400px;
+	}
+	.navHeaderBlock{
+		width: 400px;
+	}
+	.ulBlockHeader{
+		width: 400px;
+	}
+	.itemNavMenu{
+		width: max-content;
+	}
+	.itemNavMenu a{
+		font-family: "Nunito";
+		display: flex;
+		color: white;
+		margin-left: 20px;
+		font-size: 12px;
+	}
+	.ulBlockHeader{
+		display: flex;
+		justify-content: center;
+	}
+	/* MAIN */
+	.mainBlock{
+		width: 400px;
+		margin: 0 auto;
+	}
+	.textMain{
+		font-size: 40px;
+	}
+	.cartPosition{
+		width: 400px;
+		height: 300px;
+		margin: 0 auto;
+	}
+	/* footer */
+	.mainBlock__footer{
+		width: 400px;
+		flex-direction: column;
+		height: max-content;
+	}
+	.mainBlockFooter{
+		width: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.logoFooter{
+		position: relative;
+		background-image: url(/images/logo.png);
+		background-repeat: no-repeat;
+		background-size: 190px 90px;
+		background-position: 50% 50%;
+		width: 240px;
+		height: 90px;
+		top: 10px;
+		left:0px ;
+		margin-bottom: 20px;
+	}
+}

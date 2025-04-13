@@ -1,0 +1,379 @@
+@font-face {
+	font-family: "Nunito";
+	src: url(/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+	margin: 0 auto;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	background-color: #F3F9FF;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #006790;
+	height: 100px;
+	width: auto;
+}
+.headerFirstBlock{
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.headerBlock{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1500px;
+	height: 60px;
+}
+.infoHeaderBlock{
+	display: flex;
+}
+.teleBlock_headerBlock{
+	display: flex;
+	align-items: center;
+	margin-left: 46px;
+	background-image: url(/images/Vector.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 10% 50%;
+	width: 139px;
+	height: 25px;
+	padding: 18px 20px 17px 46px;
+	background-color: #FFD200;
+	border-radius: 15px;
+	border: solid 1px;
+	font-size: 18px;
+	color: black;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+.calculatorLink{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background-image: url(/images/Subtract.png);
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 10% 50%;
+	width: 114px;
+	height: 25px;
+	padding: 17px 19px 18px 43px;
+	background-color: #FFD200;
+	border-radius: 15px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	border: solid 1px;
+	font-family: "Nunito";
+	font-weight: 700;
+}
+.headerSecondBlock{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	width: auto;
+	background-color: #028BC1;
+}
+.nav_block{
+	font-family: "Nunito";
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 1500px;
+}
+.navHeaderBlock{
+	display: flex;
+	width: 1260px;
+}
+.ulBlockHeader{
+	display: flex;
+	justify-content: space-between;
+}
+
+.itemNavMenu a{
+	font-family: "Nunito";
+	display: flex;
+	color: white;
+	margin-left: 120px;
+}
+/* main */
+main{
+	font-family: "Nunito";
+}
+.mainBlock{
+	width: 1500px;
+	margin: 0 auto;
+}
+.navigationLink{
+	width: max-content;
+	color: #667582;
+	font-size: 18px;
+	margin-top: 60px;
+}
+.ourSer{
+	font-size: 80px;
+
+}
+.blockUslug{
+	display: flex;
+
+}
+.itemCard_blockUslug:nth-child(1){
+	background-image: url(/images/bgMain1.png);
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+	background-position: 100% 100%;
+	width: 480px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 30px;
+	background-color: white;
+	border-radius: 12px;
+}
+.itemCard_blockUslug:nth-child(2){
+	background-image: url(/images/bgMain4.png);
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+	background-position: 100% 100%;
+	width: 480px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 12px;
+	margin-right: 30px;
+	background-color: white;
+	justify-content: space-between;
+}
+.itemCard_blockUslug:nth-child(3){
+	background-image: url(/images/bgMain3.png);
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+	background-position: 100% 100%;
+	width: 480px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 12px;
+	justify-content: space-between;
+}
+.mainText-itemCard_blockUslug{
+	font-size: 30px;
+	width: 300px;
+	padding-left: 20px;
+	padding-top: 10px;
+	font-weight: 700;
+}
+.priceBlock{
+	background-color: #FFD200;
+	padding: 7px 17px 7px 17px;
+	font-size: 18px;
+	width: max-content;
+	border-radius: 12px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.textCalculator{
+	font-size: 80px;
+	margin-top: 180px;
+	margin-bottom: 60px;
+}
+/* .calculator{
+	width: 1500px;
+	height: 1000px;
+	background-color: white;
+	border-radius: 12px;
+} */
+.container {
+	background-color: #fff;
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	padding: 40px;
+	width: 1500px; /* Фиксированная ширина 1500px */
+	max-width: 1500px; /* Установка максимальной ширины */
+	text-align: left;
+	transition: all 0.3s ease;
+}
+
+.container:hover {
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+/* Стили для полей формы */
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: 500;
+	color: #555;
+}
+
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select {
+	width: 100%;
+	padding: 12px 15px;
+	margin-bottom: 20px;
+	border: 1px solid #cdddf2;
+	border-radius: 6px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #495057;
+	transition: border-color 0.2s;
+}
+
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus {
+	border-color: #64b5f6;
+	outline: none;
+	box-shadow: 0 0 8px rgba(100, 181, 246, 0.3);
+}
+
+/* Стили для чекбоксов */
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+/* Стили для кнопки */
+button {
+	background-color: #2979ff; /* Яркий голубой */
+	color: white;
+	padding: 14px 25px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 500;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: block;
+	margin: 30px auto;
+	width: fit-content;
+}
+
+button:hover {
+	background-color: #1565c0; /* Более темный голубой */
+	transform: translateY(-2px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Стили для результатов */
+#result {
+	margin-top: 40px;
+	padding: 25px;
+	background-color: #f1f8e9; /* Светло-зеленый */
+	border: 1px solid #c8e6c9;
+	border-radius: 10px;
+	color: #388e3c; /* Темно-зеленый */
+	font-size: 1.1em;
+	line-height: 1.8;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+#result h3 {
+	color: #2e7d32;
+	margin-top: 0;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#result p {
+	margin-bottom: 10px;
+}
+
+#result strong {
+	font-weight: 600;
+	color: #1b5e20;
+}
+/* footer */
+footer{
+	font-family: "Nunito";
+	background-color: black;
+	width: auto;
+}
+.mainBlock__footer{
+	display: flex;
+	margin: 0 auto;
+	width: 1500px;
+	height: 300px;
+
+}
+.logoFooter{
+	position: relative;
+	background-image: url(/images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 300px 150px;
+	background-position: 50% 50%;
+	width: 300px;
+	height: 150px;
+	top: 80px;
+}
+.mainBlockFooter{
+	margin: auto auto;
+	display: flex;
+}
+.itemLink{
+	color: white;
+}
+.mainText__footerBlock{
+	margin-right: 60px;
+}
+.itemLinkMain{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.itemLink{
+	margin-bottom: 10px;
+}
+.contact__footerBlock{
+	display: flex;
+	flex-direction: column;
+
+}
+.tel_footer{
+	display: flex;
+	color: white;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.textContact__footerBlock{
+	padding-left: 10px;
+}
+.mail__footer{
+	display: flex;
+	color: white;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.town__footer{
+	display: flex;
+	color: white;
+	align-items: center;
+}
